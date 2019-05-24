@@ -1,0 +1,19 @@
+{
+   "manifest_version": 2,
+   "name": "POG",
+   "version": "1.0",
+   "description": "Page Object Generator for Serenity-Cucumber",
+   "icons": {
+		"128": "/icons/icon128.png",
+		"48": "/icons/icon48.png",
+		"16": "/icons/icon16.png"
+   },
+   "browser_action": {
+		"defualt_icon": "icon16.png",
+		"default_popup": "popup.html"
+   },
+   "permissions": [
+    "activeTab",
+    "<all_urls>"
+	]
+}
